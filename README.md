@@ -54,25 +54,28 @@ For example, if you enter:
 
 ```
 Prefix Line 1 
-Prefix Line 2
 
 Main text A
 Main text B 
 
 Additional 1
-Additional 2
+
+Suffix 1
+Suffix 2
+Suffix 3
+Suffix 4
 ```
 
 The output will contain:
 
 ```
-Prefix Line 1 + Main text A + Additional 1
-Prefix Line 1 + Main text A + Additional 2
-Prefix Line 1 + Main text B + Additional 1 
-Prefix Line 1 + Main text B + Additional 2
+Prefix Line 1  Main text A Additional 1 Suffix 1
+Prefix Line 1  Main text A Additional 1 Suffix 2 
+Prefix Line 1  Main text A Additional 1 Suffix 3
+Prefix Line 1  Main text A Additional 1 Suffix 4
 
-Prefix Line 2 + Main text A + Additional 1
-Prefix Line 2 + Main text A + Additional 2
-Prefix Line 2 + Main text B + Additional 1
-Prefix Line 2 + Main text B + Additional 2 
+Prefix Line 1  Main text B  Additional 1 Suffix 1
+Prefix Line 1  Main text B  Additional 1 Suffix 2 
+Prefix Line 1  Main text B  Additional 1 Suffix 3
+Prefix Line 1  Main text B  Additional 1 Suffix 4
 ```
